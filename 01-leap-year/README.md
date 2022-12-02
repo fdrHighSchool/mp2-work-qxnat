@@ -43,9 +43,13 @@
   }
   ```
 
+  fixed code below:
+  
+  ```
   * Scanner console = new Scanner(System.in);
   * System.out.println("What is your favorite color? ");
   * String favcolor = console.nextLine(); //replaced name w/ favcolor
   * if (favcolor == "blue"){
   *     System.out.println("Mine too!");
   * }
+  ```
